@@ -1,23 +1,69 @@
 # ------------------------------------------------- #
-# Title: Lab7-1
-# Description: A simple example of storing data in a binary file
+# Title: Assignment07
+# Description: Script demonstrates how Pickling
+#               and Structured error handling work
 # ChangeLog: (Who, When, What)
-# <YourName>,<1.1.2030>,Created Script
+# ChangeLog: DIyer, 2/28/2022, Created
+# ChangeLog: DIyer, 3/4/2022, modified after reviewing Assignment07
 # ------------------------------------------------- #
-import pickle  # This imports code from another code file!
 
-# Data -------------------------------------------- #
-strFileName = 'AppData.dat'
-lstCustomer = []
+# This imports code from another code file!
+import pickle
 
-# Processing -------------------------------------- #
-def save_data_to_file(file_name, list_of_data):
-    pass  # TODO: Add code here
+'''Pickling Demo'''
 
-def read_data_from_file(file_name):
-    pass  # TODO: Add code here
+# # create the list of customers
+# customer_id = int(input("Enter ID (integer): "))
+# customer_name = str(input("Enter a Name (string): "))
+# customer_list = [customer_id, customer_name]
+# print(customer_list)
+#
+# # store the data with pickle.dump method
+# objFile = open("AppData.dat","ab")
+# pickle.dump(customer_list, objFile)
+# objFile.close()
+#
+# # read the data back with pickle.load method
+# objFile = open("AppData.dat","rb")
+# objFileData = pickle.load(objFile)
+# objFile.close()
+# print(objFileData)
 
-# Presentation ------------------------------------ #
-# TODO: Get ID and NAME From user, then store it in a list object
-# TODO: store the list object into a binary file
-# TODO: Read the data from the file into a new list object and display the contents
+'''Error handling demo'''
+
+# try:
+#     f = open("AppsData.dat", "rb")
+# except Exception as e:
+#     print("There is an error with your command, try again!")
+#     print("Built-in Python error info: ")
+#     print(e)
+#     print(type(e))
+#     print(e.__doc__)
+#     print(e.__str__())
+
+
+''' Both at same time'''
+try:
+    customer_id = int(input("Enter ID (integer): "))
+    customer_name = str(input("Enter a Name (string): "))
+    customer_list = [customer_id, customer_name]
+    print(customer_list)
+
+except Exception as e:
+    print("Please use integers for ID")
+    print("Built in error info:")
+    print(e)
+    print(type(e))
+    print(e.__doc__)
+    print(e.__str__())
+
+# store the data with pickle.dump method
+    objFile = open("AppData.dat","ab")
+    pickle.dump(customer_list, objFile)
+    objFile.close()
+
+  # read the data back with pickle.load method
+    objFile = open("AppData.dat","rb")
+    objFileData = pickle.load(objFile)
+    objFile.close()
+    print(objFileData)
