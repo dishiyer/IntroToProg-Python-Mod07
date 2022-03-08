@@ -1,37 +1,50 @@
-## Welcome to GitHub Pages
+# IntroToProg-Python-Mod07
 
-You can use the [editor on GitHub](https://github.com/dishiyer/IntroToProg-Python-Mod07/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Repository for Assignment07 for UW PCE IT FDN 110
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Assignment 07: Files and Exceptions 
 
-### Markdown
+The seventh module focused on creating scripts using Files and Exceptions.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Preparing for Assignment
 
-```markdown
-Syntax highlighted code block
+In preparation for completing the assignment, I followed the Assignment04.docx step by step to gather an understanding of the following:
+a.	Working with text files: read, append, combined modes
+b.	Working with binary files
+c.	Structured error handling using try and except
+d.	Using the structured error handling to catch and read errors
+e.	GitHub pages
 
-# Header 1
-## Header 2
-### Header 3
+In order to do so, I reviewed the module video, the references and websites. I also reviewed the textbook material.
 
-- Bulleted
-- List
+### Performing the Assignment
+I followed the instructions to create the Folders in the C: drive and creating the Assignment starter script. In addition, I installed PyCharm and followed the directions to setup the environment and directory. I tried to use comments in script to remind myself about the organization and purpose of the code. I also watched the videos for the class to get an understanding of what is expected. I finally finished the assignment by uploading to GitHub.
+I updated my assignment after reviewing the Assignment module.
 
-1. Numbered
-2. List
+#### Create Python script
 
-**Bold** and _Italic_ and `Code` text
+I created the Python script using the PyCharm IDE. I tried to add comments to explain the code as well.
 
-[Link](url) and ![Image](src)
-```
+[PDF of code](https://github.com/dishiyer/IntroToProg-Python-Mod07/blob/main/code-pdfs/Assignment07-code.pdf)
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+![Screenshot of code PDF](https://github.com/dishiyer/IntroToProg-Python-Mod07/blob/cdfc90a7eb816053d25fead2d9bd5352aaf2b172/images/Assignment07-code%20screenshot.PNG)
 
-### Jekyll Themes
+Utilizing the notes from the TA session and understanding how use Classes and Functions, I was able to complete the code.
+I had to also review the Assignment answer to update my work.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dishiyer/IntroToProg-Python-Mod07/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#### Test Script
+I tested the script within the IDE using the ‘Run’ function. The script executed successfully. The test also output the text file.
+Below is a PDF output of the “Run” window results from PyCharm. I ran it twice to check the error handling as well as a good input.
 
-### Support or Contact
+[Test 1: Error Handling](https://github.com/dishiyer/IntroToProg-Python-Mod07/blob/main/code-pdfs/Assignment07-output%20error.pdf)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[Test 2: Valid Input Pickling](https://github.com/dishiyer/IntroToProg-Python-Mod07/blob/main/code-pdfs/Assignment07-pickling.pdf)
+
+
+#### Run Script
+Once I was confident enough, I opened the Command Prompt in Windows and ran the script. 
+
+![Screenshot of command prompt](https://github.com/dishiyer/IntroToProg-Python-Mod07/blob/cdfc90a7eb816053d25fead2d9bd5352aaf2b172/images/Assignment07-command%20prompt.PNG)
+
+My code works as intended.
+
